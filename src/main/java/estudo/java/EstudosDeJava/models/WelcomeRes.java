@@ -1,12 +1,12 @@
-package models;
+package estudo.java.EstudosDeJava.models;
 
-public class WelcomeResponse {
+public class WelcomeRes {
     private String message;
     private String version;
     private String author;
     private String repo;
 
-    public WelcomeResponse(String message, String version, String author, String repo){
+    public WelcomeRes(String message, String version, String author, String repo){
         this.message = message;
         this.version = version;
         this.author = author;
